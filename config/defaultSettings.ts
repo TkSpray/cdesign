@@ -5,17 +5,16 @@ type DefaultSettings = Partial<ProSettings> & {
 };
 
 const proSettings: DefaultSettings = {
-  navTheme: 'dark',
-  // 拂晓蓝
+  navTheme: 'light',
   primaryColor: '#1890ff',
-  layout: 'side',
-  contentWidth: 'Fluid',
+  layout: 'top',
+  contentWidth: 'Fixed',
   fixedHeader: false,
   fixSiderbar: true,
-  colorWeak: false,
-  title: 'Ant Design Pro',
+  title: '综设管理系统',
   pwa: false,
   iconfontUrl: '',
+  splitMenus: false,
 };
 
 export type { DefaultSettings };
